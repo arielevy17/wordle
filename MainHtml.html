@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="MainCss.css">
+<script src="MainJavaScript.js" type="text/javascript"></script>
+</head>
+<body onload="getString();newStringEveryDay(); instructions() ;cancelKeyboardPress()">
+<div>
+    <span id="word"></span>
+</div>
+<div>
+<span id="allTextField">
+    <input type="text" id="5">
+    <input type="text" id="4">
+    <input type="text" id="3">
+      <input type="text" id="2">
+    <input type="text" id="1" >
+     </br></br>
+    <input type="text" id="10">
+    <input type="text" id="9">
+    <input type="text" id="8">
+      <input type="text" id="7">
+    <input type="text" id="6" >
+    </br> </br>
+    <input type="text" id="15">
+    <input type="text" id="14">
+    <input type="text" id="13">
+      <input type="text" id="12">
+    <input type="text" id="11" >
+    </br> </br>
+    <input type="text" id="20">
+    <input type="text" id="19">
+    <input type="text" id="18">
+      <input type="text" id="17">
+    <input type="text" id="16" >
+    </br> </br>
+    <input type="text" id="25">
+    <input type="text" id="24">
+    <input type="text" id="23">
+      <input type="text" id="22">
+    <input type="text" id="21" >
+    </br> </br>
+    <input type="text" id="30">
+    <input type="text" id="29">
+    <input type="text" id="28">
+      <input type="text" id="27">
+    <input type="text" id="26" >
+    </br> </br>
+
+</span>
+</div>
+
+<span id="allButtons" >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button onclick="putLetter(this.innerText)">א</button>
+    <button onclick="putLetter(this.innerText)">ב</button>
+    <button onclick="putLetter(this.innerText)">ג</button>
+    <button onclick="putLetter(this.innerText)">ד</button>
+    <button onclick="putLetter(this.innerText)">ה</button>
+    <button onclick="putLetter(this.innerText)">ו</button>
+    <button onclick="putLetter(this.innerText)">ז</button>
+    <button onclick="putLetter(this.innerText)">ח</button>
+    <button onclick="putLetter(this.innerText)">ט</button>
+    <button onclick="putLetter(this.innerText)">י</button>
+    <br>
+    <button onclick="putLetter(this.innerText)">כ</button>
+    <button onclick="putLetter(this.innerText)">ל</button>
+    <button onclick="putLetter(this.innerText)">מ</button>
+    <button onclick="putLetter(this.innerText)">נ</button>
+    <button onclick="putLetter(this.innerText)">ס</button>
+    <button onclick="putLetter(this.innerText)">ע</button>
+    <button onclick="putLetter(this.innerText)">פ</button>
+    <button onclick="putLetter(this.innerText)">צ</button>
+    <button onclick="putLetter(this.innerText)">ק</button>
+    <button onclick="putLetter(this.innerText)">ר</button>
+    <button onclick="putLetter(this.innerText)">ש</button>
+    <button onclick="putLetter(this.innerText)">ת</button>
+
+    </span>
+
+<div>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="submit" onclick="checkAll()">
+        אישור
+    </button>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="deleate" onclick="deleteLetter()">מחק</button>
+
+</div>
+
+</span>
+</div>
+
+
+</body>
+</html>
